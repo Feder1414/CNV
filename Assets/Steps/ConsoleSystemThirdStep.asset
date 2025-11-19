@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b34a6796e4316cc4cbf63047e5328ada, type: 3}
+  m_Name: ConsoleSystemThirdStep
+  m_EditorClassIdentifier: Assembly-CSharp::ConsoleSystemStep
+  leverId: 
+  leverActivated: 0
+  leverTime: 0
+  buttonId: 
+  buttonActivated: 0
+  buttonTime: 0
+  compassId: 0
+  amountDegreesToRotate: 0
+  connectedCables:
+  - cableId: 2
+    connected: 1
+    connectedSocketId: 1
+  - cableId: 0
+    connected: 0
+    connectedSocketId: 0
+  - cableId: 1
+    connected: 0
+    connectedSocketId: 0

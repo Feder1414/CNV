@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e56d4b40bcb29148ae53049488f5bd2, type: 3}
+  m_Name: NavigationSystem
+  m_EditorClassIdentifier: Assembly-CSharp::DialoguesScriptableObject
+  eventId: 2
+  lines:
+  - speaker: Josh
+    text: "Buen trabajo\u2026 el sistema el\xE9ctrico respondi\xF3."
+    audioClip:
+    - {fileID: 8300000, guid: a55c737c8a2882547948b3145ada3f38, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "A la izquierda del sistema el\xE9ctrico encontrar\xE1s el sistema de navegaci\xF3n.
+      All\xED encontrar\xE1s tres br\xFAjulas. Cada una controla un eje distinto
+      del rumbo."
+    audioClip:
+    - {fileID: 8300000, guid: 99192be658add4843a322b34382b0cdb, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Tu tarea es ajustarlas una por una, gir\xE1ndolas hasta que escuches un
+      tono agudo\u2026 ese sonido indica que est\xE1n alineadas."
+    audioClip:
+    - {fileID: 8300000, guid: 41b61fada8c633546b146c589cd08d0a, type: 3}
+    animTrigger: ns4
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Sin embargo hazlo con cuidado. Si giras demasiado la br\xFAjula perder\xE1s
+      la calibraci\xF3n y el tono iniciar\xE1 a hacerse m\xE1s grave."
+    audioClip:
+    - {fileID: 8300000, guid: 6bfa4a4c8bd38e34587bc08f0040043b, type: 3}
+    animTrigger: ns5
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Cuando las tres br\xFAjulas est\xE9n en la posici\xF3n correcta, se encender\xE1
+      un bombillo verde ubicado a la derecha de la consola de navegaci\xF3n."
+    audioClip:
+    - {fileID: 8300000, guid: 84d61912b9e0cdc418173cbd02cf2127, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Ve una por una\u2026 sin prisa, pero sin detenerte. Cuando veas esa luz
+      verde\u2026 sabr\xE1s que lo lograste."
+    audioClip:
+    - {fileID: 8300000, guid: 651539c5ce00cf74ba5ce7428217886f, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  repeatStartIndex: 3
+  repeatEndIndex: 4

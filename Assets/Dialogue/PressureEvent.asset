@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e56d4b40bcb29148ae53049488f5bd2, type: 3}
+  m_Name: PressureEvent
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueScriptableObject
+  eventId: 0
+  lines:
+  - speaker: Josh
+    text: "\xA1Escucha!... hubo un impacto... el casco aguant\xF3, pero varios sistemas
+      est\xE1n fallando."
+    audioClip:
+    - {fileID: 8300000, guid: 27024919b9113a045a6cf058ff8bad76, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "No puedo moverme... tendr\xE1s que encargarte t\xFA."
+    audioClip:
+    - {fileID: 8300000, guid: b28698de59aa5224b816dd0bea4f6f10, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "El control de presi\xF3n, el sistema el\xE9ctrico, la navegaci\xF3n y
+      la consola principal\u2026 todos necesitan reiniciarse."
+    audioClip:
+    - {fileID: 8300000, guid: 632746a0a43ccc049947bea6713f3712, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Te guiar\xE9 paso a paso\u2026 pero tendr\xE1s que seguir mis indicaciones
+      con precisi\xF3n.  Para esto es esencial que primero escuches las instrucciones,
+      y despu\xE9s pongas manos a la obra."
+    audioClip:
+    - {fileID: 8300000, guid: b8f3aeb876ed09548ab0b9d465643b85, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: Un error, y este submarino no vuelve a la superficie.
+    audioClip:
+    - {fileID: 8300000, guid: eefabf2888c023b4f9aef6e0c2b77a15, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "\xBFListo? Empieza por el control de presi\xF3n. R\xE1pido."
+    audioClip:
+    - {fileID: 8300000, guid: 52153dd1598775b4d91179f122cf3c90, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Es lo primero que debemos estabilizar\u2026 Esc\xFAchame con cuidado\u2026"
+    audioClip:
+    - {fileID: 8300000, guid: 3c277a21d988e734494e8611e06dff6d, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Ve hacia el medidor de presi\xF3n y la v\xE1lvula principal"
+    audioClip:
+    - {fileID: 8300000, guid: c88086baed7be2f4795226751575d9d0, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Vas a tener que girar esa v\xE1lvula en sentido horario\u2026 hasta que
+      la aguja llegue a la zona roja."
+    audioClip:
+    - {fileID: 8300000, guid: 343fc046142b1774d8164554206ed349, type: 3}
+    animTrigger: ps9
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Cuando la aguja toque ese punto oprime el bot\xF3n que est\xE1 junto a
+      la manivela por tres segundos\u2026 Entonces habr\xE1s completado el primer
+      paso."
+    audioClip:
+    - {fileID: 8300000, guid: ccf730fc9cb7fb847897fa59a211ade5, type: 3}
+    animTrigger: ps10
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Ahora, mientras sigues presionando el bot\xF3n\u2026 gira la v\xE1lvula
+      en sentido contrario\u2026 despacio\u2026 hasta llevar la aguja a la zona negra."
+    audioClip:
+    - {fileID: 8300000, guid: c1ee43906e72aaf408a0837a2dd14c77, type: 3}
+    animTrigger: ps11
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Si lo haces bien\u2026 la presi\xF3n se estabilizar\xE1 y podr\xE1s seguir
+      con los dem\xE1s sistemas. Vamos\u2026 t\xFA puedes"
+    audioClip:
+    - {fileID: 8300000, guid: ec2a421612613bf4884d544ad74b2dc3, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 2
+    autoCalculateTypeSpeedAndDuration: 0
+  repeatStartIndex: 8
+  repeatEndIndex: 10

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e56d4b40bcb29148ae53049488f5bd2, type: 3}
+  m_Name: ElectricSystem
+  m_EditorClassIdentifier: Assembly-CSharp::DialoguesScriptableObject
+  eventId: 1
+  lines:
+  - speaker: Josh
+    text: "Bien! lograste estabilizar la presi\xF3n del sistema... Pero no es suficiente."
+    audioClip:
+    - {fileID: 8300000, guid: 4c8373d26e0bed6479e2ed1904a9ec3b, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Ahora es necesario restablecer la energ\xEDa del sistema "
+    audioClip:
+    - {fileID: 8300000, guid: 7b201f6cca694024a83e4c0375ffa595, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Ve al panel el\xE9ctrico ubicado en la esquina, a la izquierda del sistema
+      de presi\xF3n donde hay tres disyuntores contiguos."
+    audioClip:
+    - {fileID: 8300000, guid: 3428b96e67e345347a7b2451cafd44c0, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Escucha con atenci\xF3n, hay que restablecer el flujo sin provocar una
+      sobrecarga."
+    audioClip:
+    - {fileID: 8300000, guid: ab8e39f08d4d5de48bee803c7deb9205, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Es importante que sepas que esta reparaci\xF3n tiene varios pasos. En
+      cada uno tendr\xE1s que levantar las palancas en un orden preciso y mantenerlas
+      arriba durante unos segundos."
+    audioClip:
+    - {fileID: 8300000, guid: 8363be098dc176e4984de45e4b55cd2d, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Pero en cuanto completes un paso, debes pasar al siguiente sin tardar
+      demasiado, o el sistema se desestabilizar\xE1. "
+    audioClip:
+    - {fileID: 8300000, guid: a0c70e7b23db6bc47b9586b0afbf8b32, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Sabr\xE1s que hiciste bien cada paso cuando uno de los bombillos verdes,
+      justo arriba de las palancas, se encienda. Si te equivocas todos los bombillos
+      se apagar\xE1n y tendr\xE1s que iniciar desde el comienzo. Ten mucho cuidado."
+    audioClip:
+    - {fileID: 8300000, guid: c34028df82dff0847a2a149796c30b02, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Ufff, bueno\u2026 una vez explicado esto ahora te voy a decir las instrucciones
+      espec\xEDficas por cada paso."
+    audioClip:
+    - {fileID: 8300000, guid: 6b2905aafc6047f429f6cc1c69cf142e, type: 3}
+    animTrigger: Josh
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Primero\u2026 activa la segunda palanca. Mant\xE9nla arriba al menos tres
+      segundos."
+    audioClip:
+    - {fileID: 8300000, guid: a99c1e3aa51b3bf4083a11b0f5b8a523, type: 3}
+    animTrigger: es9
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: 
+    text: "Ahora sube la segunda palanca y mantenla otros tres segundos. No bajes
+      la segunda todav\xEDa."
+    audioClip:
+    - {fileID: 8300000, guid: 99dae7bc334daff428945cbe7ca57e37, type: 3}
+    animTrigger: es10
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: 
+    text: "Sube la tercera palanca y baja la segunda r\xE1pidamente. La primera debe
+      seguir arriba."
+    audioClip:
+    - {fileID: 8300000, guid: a02a42b0c375c6e4d90ad6f8c697bbc5, type: 3}
+    animTrigger: es11
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: 
+    text: "Eso deber\xEDa cerrar el circuito\u2026"
+    audioClip:
+    - {fileID: 8300000, guid: b4b438f582a5a754aa24e54f67047e4c, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: 
+    text: "Sabr\xE1s que el sistema fue restaurado con \xE9xito una vez todos los
+      bombillos que te mencion\xE9 se hayan iluminado "
+    audioClip:
+    - {fileID: 8300000, guid: 2daa24251f1052f42872a3bf883d8b96, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  repeatStartIndex: 8
+  repeatEndIndex: 10

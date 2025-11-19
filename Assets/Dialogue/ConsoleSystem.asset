@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e56d4b40bcb29148ae53049488f5bd2, type: 3}
+  m_Name: ConsoleSystem
+  m_EditorClassIdentifier: Assembly-CSharp::DialoguesScriptableObject
+  eventId: 3
+  lines:
+  - speaker: Josh
+    text: "Bien\u2026 la navegaci\xF3n est\xE1 de vuelta. Eso nos da un respiro\u2026
+      pero a\xFAn no tenemos control total."
+    audioClip:
+    - {fileID: 8300000, guid: 8005b9c6829568e4aa8a4e7801451670, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "El siguiente paso es la consola principal\u2026 sin ella no podremos comandar
+      nada."
+    audioClip:
+    - {fileID: 8300000, guid: 2fccb9c032b6e4f4da042ead57a3dac2, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "A la izquierda del sistema de navegaci\xF3n vas a encontrar una palanca,
+      dos botones\u2026 y tres cables con sus enchufes."
+    audioClip:
+    - {fileID: 8300000, guid: 7f67c1f2cfd4ea5498920c42a01646dd, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Vamos a hacerlo por pasos. Para iniciar la reparaci\xF3n tendr\xE1s que
+      oprimir el bot\xF3n m\xE1s a la izquierda. Adem\xE1s, cada vez que logres completar
+      un paso correctamente \r\n correctamente, ver\xE1s un bombillo verde encenderse."
+    audioClip:
+    - {fileID: 8300000, guid: 83bb7aec65d52914b85ae3ab5a29b0c6, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Si te equivocas, tendr\xE1s que que iniciar desde el comienzo, y volver
+      a oprimir el bot\xF3n que te indique. "
+    audioClip:
+    - {fileID: 8300000, guid: 57c0e14b33126e244ba767da71b64cdd, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: 'Ahora, vamos con los pasos. '
+    audioClip:
+    - {fileID: 8300000, guid: 56266e8f632b5ff4da86ee5e37dce576, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Paso uno\u2026 S\xFAbele a la palanca\u2026 luego conecta el cable uno
+      al enchufe tres. Cuando lo hagas bien, el primer bombillo verde se encender\xE1."
+    audioClip:
+    - {fileID: 8300000, guid: d00c42bc57c7698448fa8e29e80240d2, type: 3}
+    animTrigger: cs7
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Paso dos\u2026 Conecta el cable dos al enchufe uno\u2026 y despu\xE9s
+      presiona el bot\xF3n de la consola. Si est\xE1 correcto, ver\xE1s el segundo
+      bombillo iluminado."
+    audioClip:
+    - {fileID: 8300000, guid: c50edb02168aabd40a3ae3c4d680ba20, type: 3}
+    animTrigger: cs8
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Paso tres\u2026 el final. Conecta el cable tres al enchufe dos\u2026 \r\n
+      y ahora desconecta los otros dos cables. Cuando termines, baja la palanca."
+    audioClip:
+    - {fileID: 8300000, guid: 2eb2daef99d4ebd459b4ae2bb20fb640, type: 3}
+    animTrigger: cs9
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Si todo est\xE1 en orden\u2026 el bombillo final se encender\xE1. \r\n
+      Y con eso\u2026 la consola quedar\xE1 restaurada y finalmente podremos volver
+      a poner en rumbo a la nave."
+    audioClip:
+    - {fileID: 8300000, guid: 9f01c86aee1d49d488d296115c785273, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  - speaker: Josh
+    text: "Vamos\u2026 t\xFA puedes."
+    audioClip:
+    - {fileID: 8300000, guid: 0de162445a321704fbdaabb0cb4cfb07, type: 3}
+    animTrigger: 
+    typeSpeed: 50
+    autoAdvanceAfter: 0
+    autoCalculateTypeSpeedAndDuration: 0
+  repeatStartIndex: 6
+  repeatEndIndex: 8
