@@ -94,6 +94,7 @@ public class ElectricSystemController : MonoBehaviour, EventSubmarine
             if (_firstTry)
             {
                 _startTime = Time.time;
+                Debug.Log($"StartTime event electric {_startTime} ");
                 _firstTry = false;
             }
 
@@ -131,9 +132,10 @@ public class ElectricSystemController : MonoBehaviour, EventSubmarine
             yield return new WaitForSeconds(step.graceTime);
         }
 
-
-        eventCompleted?.Invoke();
         TotalTime = Time.time - _startTime;
+        eventCompleted?.Invoke();
+
+
         _isCompleted = true;
         Debug.Log($"Completed electric system event with id {eventId}");
     }

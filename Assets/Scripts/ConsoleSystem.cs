@@ -362,8 +362,9 @@ public class ConsoleSystem : MonoBehaviour, EventSubmarine
 
         if (_currStep >= consoleSystemSteps.Length)
         {
-            eventCompleted?.Invoke();
             TotalTime = Time.time - _startTime;
+            eventCompleted?.Invoke();
+
             _isCompleted = true;
             UnhookEverything();
             return;
