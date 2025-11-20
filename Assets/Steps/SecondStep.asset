@@ -19,4 +19,4 @@ MonoBehaviour:
     leverTime: 3
   downLevers: 
   duration: 3
-  graceTime: 1.5
+  graceTime: 3
