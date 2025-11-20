@@ -1,4 +1,5 @@
 # Evaluación del impacto de la comunicación no verbal en VR en la ejecución de tareas
+<img width="1002" height="474" alt="image" src="https://github.com/user-attachments/assets/6b94e764-7552-4413-9968-d03d950f52f7" />
 
 ## Tecnolologías usadas:
 Las tecnologías utilizadas para el desarrollo del proyecto son las siguientes:
